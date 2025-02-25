@@ -4,7 +4,7 @@ import java.awt.*;
 //cap9
 //https://github.com/nature-of-code/noc-examples-processing/blob/master/chp09_ga/GA_Shakespeare_fancyfitness/Population.pde
 public class GeneticAlgorithm extends JPanel {
-    private final String target = "My name is optimus prime the leader of the autobots";
+    private final String target = "hello this is a test witch the algortim shoud be able to guess this exact string if it did congratz if not try HARDER";
     private final int popmax = 150;
     private final float mutationRate = 0.01f;
     private Population population;

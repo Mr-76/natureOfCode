@@ -31,7 +31,8 @@ public class DNA {
                 score++;
             }
         }
-        fitness = (float)score/target.length();
+        //fitness = 1000*((float)score/target.length());
+        fitness = Math.pow(2, score);
     }
 
     public double getFitness() {
